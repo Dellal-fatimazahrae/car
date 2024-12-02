@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.circle1, .circle2 {
+    top: 75%;
+    height: 25vw;
+    width: 25vw;
+    border: black solid 1.5px;
+    border-radius: 100%;
+    position: absolute;
+}
+
+
+
+.carre2 {
+    height: 35%;
+    width: 20%;
+    position: absolute;
+    left: 20%;
+    top: 0%;
+    border: black solid 1.5px;
+    background-color:blue;
+}
+.carre3 {
+    height: 35%;
+    width: 20%;
+    position: absolute;
+    top: 0%;
+    left: 40%; 
+    border: black solid 1.5px;
+    background-color:blue;
+}
+
+
+.carre10 {
+    height: 35%;
+    width: 20%;
+    position: absolute;
+    left: 0%;
+    top: 35%; 
+    border: black solid 1.5px;
+    background-color:  rgb(182, 255, 195);
+}
+.carre7 {
+    height: 35%;
+    width: 20%;
+    position: absolute;
+    top: 35%; 
+    left: 20%;
+    border: black solid 1.5px;
+    background-color: rgb(158, 105, 255);
+}
+.carre8 {
+    height: 35%;
+    width: 20%;
+    position: absolute;
+    top: 35%; 
+    left: 40%; 
+    border: black solid 1.5px;
+    background-color: rgb(158, 105, 255);
+}
+.carre9 {
+    height: 35%;
+    width: 20%;
+    position: absolute;
+    top: 35%; 
+    left: 60%;
+    border: black solid 1.5px;
+    background-color: rgb(182, 255, 195);
+}
+.carre6 {
+    height: 35%;
+    width: 20%;
+    position: absolute;
+    top: 35%; 
+    left: 80%;
+    border: black solid 1.5px;
+    background-color: rgb(216, 21, 21);
+}
+
+.circle1 {
+    
+    top: 65%;
+    left: 10%;
+    background-color:rgb(25, 203, 198);
+}
+.circle2 {
+    top: 65%;
+    left: 70%;
+    background-color: rgb(25, 203, 198);
+}
+
+@media (max-width: 600px) {
+    
+    .carre2, .carre3 {
+        width: 50%;    
+    }
+    .carre7, .carre8 {
+        width: 50%;    
+    }
+    .carre9, .carre10 {
+        width: 50%;
+    }
+    .carre2 {
+        left: 0%;    
+    }
+    .carre3 {
+        left: 50%;    
+    }
+    .carre7 {
+        left: 0%;    
+    }
+    .carre8 {
+        left: 50%;    
+    }
+    .carre9 {
+        left: 0%;
+        top: 70%;  
+    }
+    .carre10 {
+        left: 50%;
+        top: 70%;  
+    }
+    .carre6 { 
+        rotate: 45deg;
+        width: 150px;
+        height: 150px;  
+        left: 34.5%;
+        top: 70%;
+        z-index: 10;
+    }
+    .circle1, .circle2 {
+        height: 32%;
+        width: 23vw;
+        top: 37%;  
+    }
+
+    .circle2 {
+        left: 60%;  
+    }
+    
+}
